@@ -1,4 +1,15 @@
-img{
-  width:25%;
+img {
+  width: 25%;
+}
+#image-show {
   display: none;
+}
+
+.photo-link:hover {
+  text-decoration: decoration;
+  color: blue;
+}
+
+.sand-castle  {
+display:none;
 }

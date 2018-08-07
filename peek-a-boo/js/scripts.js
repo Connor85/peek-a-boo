@@ -1,5 +1,11 @@
 $(document).ready(function() {
-  $("p").click(function(){
-    $("img").show();
+  $(".photo-link").click(function(){
+    $("#image-show").fadeToggle();
+  });
+  $(".photo-link").click(function(){
+    $("#image-hide").fadeToggle();
+  });
+  $(".photo-link").click(function(){
+    $(".sand-castle").slideToggle();
   });
 });
